@@ -4,9 +4,7 @@ role: Undergraduate of Computer Science
 avatar_filename: wechatimg288.jpeg
 bio: ""
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Machine Learning
 social:
   - icon: envelope
     icon_pack: fas
