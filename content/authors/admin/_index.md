@@ -50,4 +50,4 @@ highlight_name: true
 first_name: Alice
 email: ""
 ---
-Hello! I am a Computer Science undergraduate at the University of Virginia (UVA) working with Prof. Yuan Tian and Prof. David Evans. My current research interests are security and privacy issues in machine learning.{style="text-align: justify;"}
+Hello! I am a Computer Science undergraduate at the University of Virginia (UVA) working with Prof. Yuan Tian and Prof. David Evans. My current research interests are security and privacy issues in machine learning.
