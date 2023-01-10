@@ -17,7 +17,7 @@ social:
     link: https://github.com/Tingwei-Zhang
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/tingwei-zhang-584a53217/
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
