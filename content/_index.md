@@ -93,8 +93,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      text: The best way to contact me is through email
       # Contact (add or remove contact options as necessary)
       email: tz6rz[at]virginia[dot]org
       appointment_url: 'https://calendly.com/tingweizhang/30min'
