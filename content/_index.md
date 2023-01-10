@@ -14,7 +14,7 @@ sections:
       text:
   - block: experience
     content:
-      title: Research Experience
+      title: Work Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -96,7 +96,7 @@ sections:
       subtitle:
       text: The best way to contact me is through email :)
       # Contact (add or remove contact options as necessary)
-      email: tz6rz[at]virginia[dot]org
+      email: tz6rz[at]virginia[dot]edu
       appointment_url: 'https://calendly.com/tingweizhang/30min'
       address:
         street: Rice Hall
