@@ -1,8 +1,7 @@
 ---
 title: Tingwei Zhang 张庭玮
 role: Undergraduate of Computer Science
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: ""
 interests:
   - Artificial Intelligence
   - Computational Linguistics
@@ -51,6 +50,4 @@ highlight_name: true
 first_name: Alice
 email: ""
 ---
-
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Hello! I am a Computer Science undergraduate at the University of Virginia (UVA) working with Prof. Yuan Tian and Prof. David Evans. My current research interests are security and privacy issues in machine learning.{style="text-align: justify;"}
