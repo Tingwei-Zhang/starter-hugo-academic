@@ -1,5 +1,5 @@
 ---
-title: Tingwei Zhang 张庭玮
+title: Tingwei Zhang
 role: Undergraduate of Computer Science
 avatar_filename: avatar.png
 bio: ""
