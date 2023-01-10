@@ -1,6 +1,6 @@
 ---
-title: Alice Wu 张庭玮
-role: Professor of Artificial Intelligence
+title: Tingwei Zhang 张庭玮
+role: Undergraduate of Computer Science
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
