@@ -20,7 +20,7 @@ social:
     link: https://www.linkedin.com/
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: assets/media/resume.pdf
 organizations:
   - name: University of Virginia
     url: https://www.virginia.edu/
