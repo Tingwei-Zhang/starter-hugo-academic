@@ -1,6 +1,7 @@
 ---
 title: Tingwei Zhang 张庭玮
 role: Undergraduate of Computer Science
+avatar_filename: wechatimg288.jpeg
 bio: ""
 interests:
   - Artificial Intelligence
