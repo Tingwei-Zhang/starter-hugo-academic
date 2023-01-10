@@ -31,10 +31,7 @@ organizations:
   - name: University of Virginia
     url: https://www.virginia.edu/
 education:
-  courses:
-    - course: Undergraduate in Computer Science
-      institution: Stanford University
-      year: 2012
+  courses: []
 superuser: true
 status:
   icon: ☕️
