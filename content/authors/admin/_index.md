@@ -1,7 +1,7 @@
 ---
 title: Tingwei Zhang 张庭玮
 role: Undergraduate of Computer Science
-avatar_filename: assets/media/avatar.png
+avatar_filename: avatar.png
 bio: ""
 interests:
   - Machine Learning
