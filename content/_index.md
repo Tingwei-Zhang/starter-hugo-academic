@@ -108,11 +108,6 @@ sections:
       directions: Enter Rice Hall and take the stairs to Office 200 on Floor 3
       office_hours:
         - ' Weekdays 9:00 to 17:00'
-      contact_links:
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
