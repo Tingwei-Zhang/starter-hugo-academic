@@ -8,7 +8,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: /#contact
+    link: tz6rz@virginia.edu
   - icon: graduation-cap
     icon_pack: fas
     link: https://scintillating-paprenjak-48e467.netlify.app/
