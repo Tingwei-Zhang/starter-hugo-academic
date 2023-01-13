@@ -1,7 +1,12 @@
 ---
 title: "SoK: What Have We Learned About Black-box Attacks Against Classifiers?"
 authors:
-- admin
+- Suya Fnu
+- Anshuman Suri
+- Admin
+- Jingtao Hong
+- Yuan Tian
+- David Evans
 date: "2022-12-03T00:00:00Z"
 doi: ""
 
