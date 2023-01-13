@@ -24,12 +24,12 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Research Assistant
+          company: Security Research Group at the University of Virginia
+          company_url: 'https://uvasrg.github.io/'
+          company_logo: University_of_Virginia
+          location: Charlottesville, Virginia
+          date_start: '2021-09-01'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -37,14 +37,29 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+        - title: Teaching Assistant
+          company: CS 4102 Algorithm
+          company_url: 'https://www.cs.virginia.edu/~njb2b/cs4102/f20/index.html'
+          company_logo: University_of_Virginia
+          location: Charlottesville, Virginia
+          date_start: '2022-01-19'
+          date_end: '2022-06-01'
+          description: |2-
+              Responsibilities include:
+              * Held three-hour office hours per week for answering questions of homework,
+              * Graded coding assignments and exams.
+        - title: Teaching Assistant
+          company: CS 4774 Machine Learning
+          company_url: 'https://www.cs.virginia.edu/~nn4pj/teaching'
+          company_logo: University_of_Virginia
+          location: Charlottesville, Virginia
+          date_start: '2022-08-19'
+          date_end: '2022-12-11'
+          description: |2-
+              Responsibilities include:
+              * Helped in the classroom when conducting in-class activities,
+              * Held three-hour office hours per week for answering homework questions
+              * Graded individual assignments, group projects, and exams
     design:
       columns: '2'
   - block: portfolio

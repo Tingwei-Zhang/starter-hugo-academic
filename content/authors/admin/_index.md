@@ -32,6 +32,6 @@ status:
 last_name: Zhang
 highlight_name: true
 first_name: Tingwei
-email: ""
+email: "tz6rz@virginia.edu"
 ---
-I am a Computer Science undergraduate at the University of Virginia (UVA) working with Prof. Yuan Tian and Prof. David Evans. My current research interests are security and privacy issues in machine learning.
+  Hello! I am a Computer Science undergraduate at <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> (UVA) working with Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. My current research interests are security and privacy issues in machine learning.
