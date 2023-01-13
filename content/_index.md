@@ -27,7 +27,7 @@ sections:
         - title: Research Assistant
           company: Security Research Group at the University of Virginia
           company_url: 'https://uvasrg.github.io/'
-          company_logo: University_of_Virginia
+          company_logo: UVA
           location: Charlottesville, Virginia
           date_start: '2021-09-01'
           date_end: ''
@@ -40,7 +40,7 @@ sections:
         - title: Teaching Assistant
           company: CS 4102 Algorithm
           company_url: 'https://www.cs.virginia.edu/~njb2b/cs4102/f20/index.html'
-          company_logo: University_of_Virginia
+          company_logo: UVA
           location: Charlottesville, Virginia
           date_start: '2022-01-19'
           date_end: '2022-06-01'
@@ -51,7 +51,7 @@ sections:
         - title: Teaching Assistant
           company: CS 4774 Machine Learning
           company_url: 'https://www.cs.virginia.edu/~nn4pj/teaching'
-          company_logo: University_of_Virginia
+          company_logo: UVA
           location: Charlottesville, Virginia
           date_start: '2022-08-19'
           date_end: '2022-12-11'
