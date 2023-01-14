@@ -6,10 +6,11 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: 1950s
   theme_night: minimal
-  font: minimal
+  font: Rose
   font_size: L
+
 
 # SEO
 
@@ -34,7 +35,8 @@ header:
     enable: true
     align: l
     show_logo: true
-    show_language: true
+    show_translations: flase
+    show_language: flase
     show_day_night: true
     show_search: true
     highlight_active_link: true
@@ -64,7 +66,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
