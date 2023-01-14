@@ -23,13 +23,12 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Dozens of papers have been written to study the vulnerability of machine learning classifiers to adversarial examples in black-box settings in which the adversary only has API access to the target classifier. These papers propose attacks for settings spanning a wide range of assumptions, making it difficult to compare the attacks and understand their effectiveness. Further, attacks are often evaluated in simplified scenarios or against weak baselines, making it difficult to discern whether proposed attacks are useful improvements in important settings. Motivated by the two observations above, we systematize the knowledge of the black-box attacks against classifiers by 1) providing a new taxonomy of black-box attacks focused on considered threat models and 2) conducting a comprehensive evaluation of representative attacks in a variety of settings. Our taxonomy reveals that although many works have been published in this space, research concentrates on a few settings while leaving others largely under-explored. Our comprehensive evaluations show that attacks that perform well in simplified settings (e.g., finding untargeted adversarial examples) often fail in other settings (e.g., targeted adversarial examples). We also evaluate a few well-performing strategies from image domains in the malware space but find that these methods often lead to worse performance, indicating that the knowledge from image classification may not easily transfer to security-relevant domains. Our systematization reveals new directions worth exploring and emphasizes the importance of evaluating attacks carefully under diverse settings. 
+abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ""
 
 tags:
-- Source Themes
 featured: false
 
 links:
@@ -59,3 +58,8 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+<style>body {text-align: justify}</style>
+
+### Abstract
+
+ Dozens of papers have been written to study the vulnerability of machine learning classifiers to adversarial examples in black-box settings in which the adversary only has API access to the target classifier. These papers propose attacks for settings spanning a wide range of assumptions, making it difficult to compare the attacks and understand their effectiveness. Further, attacks are often evaluated in simplified scenarios or against weak baselines, making it difficult to discern whether proposed attacks are useful improvements in important settings. Motivated by the two observations above, we systematize the knowledge of the black-box attacks against classifiers by 1) providing a new taxonomy of black-box attacks focused on considered threat models and 2) conducting a comprehensive evaluation of representative attacks in a variety of settings. Our taxonomy reveals that although many works have been published in this space, research concentrates on a few settings while leaving others largely under-explored. Our comprehensive evaluations show that attacks that perform well in simplified settings (e.g., finding untargeted adversarial examples) often fail in other settings (e.g., targeted adversarial examples). We also evaluate a few well-performing strategies from image domains in the malware space but find that these methods often lead to worse performance, indicating that the knowledge from image classification may not easily transfer to security-relevant domains. Our systematization reveals new directions worth exploring and emphasizes the importance of evaluating attacks carefully under diverse settings. 

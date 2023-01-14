@@ -80,9 +80,10 @@ sections:
         - name: All
           tag: '*'
         - name: Machine Learning
-          tag: Deep Learning
+          tag: SoK
         - name: Adversarial Example
-          tag: Demo
+          tag: SoK
+
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -120,7 +121,7 @@ sections:
         postcode: '22904'
         country: United States
         country_code: US
-      directions: Enter Rice Hall and take the stairs to Office 200 on Floor 3
+      directions: Enter Rice Hall and take the stairs to Office 336 on Floor 3
       office_hours:
         - ' Weekdays 9:00 to 17:00'
       # Automatically link email and phone or display as text?
