@@ -14,7 +14,7 @@ sections:
       text:
   - block: experience
     content:
-      title: Work  Experience
+      title: Work Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -113,7 +113,7 @@ sections:
       text: The best way to contact me is through email :)
       # Contact (add or remove contact options as necessary)
       email: tz6rz[at]virginia[dot]edu
-      appointment_url: 'https://calendly.com/tingweizhang/30min'
+      appointment_url: 'https://calendly.com/tingweizhang/30min '
       address:
         street: Rice Hall
         city: Charlottesville
@@ -121,11 +121,11 @@ sections:
         postcode: '22904'
         country: United States
         country_code: US
-      directions: Enter Rice Hall and take the stairs to Office 336 on Floor 3
+      directions: Enter Rice Hall and take the stairs to Office 336 on Floor 3 
       office_hours:
         - ' Weekdays 9:00 to 17:00'
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
       # Email form provider
       form:
         provider: netlify
@@ -136,5 +136,10 @@ sections:
           captcha: true
     design:
       columns: '2'
+
+  - block: contact
+    id: contact
+    content:
+      title: Vistor's map
+      directions: <a href='https://clustrmaps.com/site/1bshb'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=700&t=n&d=oiWp7_jThPCJRWKzXSPLoXZVVG1i5roBJdOC12WuESM'/></a>
 ---
-<a href="https://clustrmaps.com/site/1bsha"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=9mE6EgDV_mX33l-mUEy2Vlz_A9lFA3CjM_H94xKfPeU&cl=ffffff" /></a>
