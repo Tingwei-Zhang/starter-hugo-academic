@@ -137,3 +137,4 @@ sections:
     design:
       columns: '2'
 ---
+<a href="https://clustrmaps.com/site/1bsha"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=9mE6EgDV_mX33l-mUEy2Vlz_A9lFA3CjM_H94xKfPeU&cl=ffffff" /></a>
