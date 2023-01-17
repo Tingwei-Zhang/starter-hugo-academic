@@ -93,7 +93,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Recent Publications
+      title: Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -110,7 +110,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: The best way to contact me is through email :)
+      text: 
       # Contact (add or remove contact options as necessary)
       email: tz6rz[at]virginia[dot]edu
       appointment_url: 'https://calendly.com/tingweizhang/30min '
@@ -128,7 +128,7 @@ sections:
       autolink: false
       # Email form provider
       form:
-        provider: netlify
+        provider: 
         formspree:
           id:
         netlify:
@@ -136,7 +136,6 @@ sections:
           captcha: true
     design:
       columns: '2'
-
   - block: contact
     id: contact
     content:
