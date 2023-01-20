@@ -18,9 +18,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'University of Virginia'
+    description: 'I am a Computer Science undergraduate at University of Virginia (UVA) working with Prof. Yuan Tian and Prof. David Evans.'
+    twitter: ''
   analytics:
     google_analytics: 'G-XQ1VE1TWJE'
     google_tag_manager: 'G-XQ1VE1TWJE'
