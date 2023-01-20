@@ -69,6 +69,13 @@ related:
       weight: 70
 security:
   _merge: deep
+  permissions:
+    policy: >-
+      accelerometer=(), camera=(), geolocation=(), gyroscope=(),
+      magnetometer=(), microphone=(), payment=(), usb=()  
+  csp:
+    policy: ''
+    report_only: false
 sitemap:
   _merge: deep
 minify:
