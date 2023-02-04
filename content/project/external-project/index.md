@@ -6,7 +6,7 @@ tags:
 date: "2021-06-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://localhost:1313/publication/preprint/
+external_link: https://ztingwei.com/publication/preprint/
 
 image:
   caption: 
