@@ -112,28 +112,28 @@ sections:
       subtitle:
       text: 
       # Contact (add or remove contact options as necessary)
-      email: tz6rz[at]virginia[dot]edu
-      appointment_url: 'https://calendly.com/tingweizhang/30min '
+      email: tz362[at]cornell[dot]edu
+      appointment_url: 'https://calendly.com/tz362/30min'
       address:
-        street: Rice Hall
-        city: Charlottesville
-        region: VA
-        postcode: '22904'
+        street: Gates Hall
+        city: Ithaca
+        region: NY
+        postcode: '14850'
         country: United States
         country_code: US
-      directions: Enter Rice Hall and take the stairs to Office 336 on Floor 3 
+      directions: Enter Gates Hall and take the stairs to Office G23, Seat 19
       office_hours:
         - ' Weekdays 9:00 to 17:00'
-      # Automatically link email and phone or display as text?
-      autolink: false
-      # Email form provider
-      form:
-        provider: 
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: true
+      # # Automatically link email and phone or display as text?
+      # autolink: false
+      # # Email form provider
+      # form:
+      #   provider: 
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: true
     design:
       columns: '2'
   - block: contact

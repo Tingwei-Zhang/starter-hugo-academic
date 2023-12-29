@@ -1,6 +1,6 @@
 ---
 title: Tingwei Zhang
-role: Undergraduate of Computer Science
+role: PhD student of Computer Science
 avatar_filename: avatar.png
 bio: ""
 interests:
@@ -22,8 +22,8 @@ social:
     icon_pack: ai
     link: uploads/resume.pdf
 organizations:
-  - name: University of Virginia
-    url: https://www.virginia.edu/
+  - name: Cornell University
+    url: https://www.cornell.edu/
 education:
   courses: []
 superuser: true
@@ -34,4 +34,4 @@ highlight_name: true
 first_name: Tingwei
 email: "tz6rz@virginia.edu"
 ---
-  Hello! I am a Computer Science undergraduate at <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> (UVA) working with Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. My current research interests are security and privacy issues in machine learning.
+  Hello! I am a Computer Science PhD student at <a  href="https://www.cornell.edu/"  target="_blank">Cornell University</a> advised by Prof. <a  href="https://www.cs.cornell.edu/~shmat/"  target="_blank">Vitaly Shmatikov</a>. I had my undergraduate at <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> (UVA) working with Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. My current research interests are security and privacy of machine learning.
