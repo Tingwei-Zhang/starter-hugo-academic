@@ -27,69 +27,93 @@ sections:
         - title: Research Assistant
           company: Security Research Group at the University of Virginia
           company_url: 'https://uvasrg.github.io/'
+          company_logo: Cornell
+          location: Charlottesville, Virginia
+          date_start: '2023-08-21'
+          date_end: ''
+          # description: |2-
+          #     Responsibilities include:
+
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+        - title: Teaching Assistant
+          company: Object-Oriented Programming and Data Structures (CS 2110)
+          company_url: 'https://www.cs.cornell.edu/courses/cs2110/2023fa/'
+          company_logo: Cornell
+          location: Ithaca, New York
+          date_start: '2023-08-21'
+          date_end: '2023-12-17'
+          # description: |2-
+          #     Responsibilities include:
+
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+        - title: Research Assistant
+          company: Security Research Group at University of Virginia
+          company_url: 'https://uvasrg.github.io/'
           company_logo: UVA
           location: Charlottesville, Virginia
           date_start: '2021-09-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+          date_end: '2023-05-01'
+          # description: |2-
+          #     Worked on the SoK paper on proper evaluation of black-box attacks to generate adversarial examples, which has been accepted to IEEE SaTML 2024.
         - title: Teaching Assistant
-          company: CS 4102 Algorithm
+          company: Algorithm (CS 4102)
           company_url: 'https://www.cs.virginia.edu/~njb2b/cs4102/f20/index.html'
           company_logo: UVA
           location: Charlottesville, Virginia
           date_start: '2022-01-19'
           date_end: '2022-06-01'
-          description: |2-
-              Responsibilities include:
-              * Held three-hour office hours per week for answering questions of homework,
-              * Graded coding assignments and exams.
+          # description: |2-
+          #     Responsibilities include:
+          #     * Held three-hour office hours per week for answering questions of homework,
+          #     * Graded coding assignments and exams.
         - title: Teaching Assistant
-          company: CS 4774 Machine Learning
+          company: Machine Learning (CS 4774)
           company_url: 'https://www.cs.virginia.edu/~nn4pj/teaching'
           company_logo: UVA
           location: Charlottesville, Virginia
           date_start: '2022-08-19'
           date_end: '2022-12-11'
-          description: |2-
-              Responsibilities include:
-              * Helped in the classroom when conducting in-class activities,
-              * Held three-hour office hours per week for answering homework questions
-              * Graded individual assignments, group projects, and exams
+          # description: |2-
+          #     Responsibilities include:
+          #     * Helped in the classroom when conducting in-class activities,
+          #     * Held three-hour office hours per week for answering homework questions
+          #     * Graded individual assignments, group projects, and exams
     design:
       columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Machine Learning
-          tag: SoK
-        - name: Adversarial Example
-          tag: SoK
 
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: true
+  # - block: portfolio
+  #   id: projects
+  #   content:
+  #     title: Projects
+  #     filters:
+  #       folders:
+  #         - project
+  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  #     default_button_index: 0
+  #     # Filter toolbar (optional).
+  #     # Add or remove as many filters (`filter_button` instances) as you like.
+  #     # To show all items, set `tag` to "*".
+  #     # To filter by a specific tag, set `tag` to an existing tag name.
+  #     # To remove the toolbar, delete the entire `filter_button` block.
+  #     buttons:
+  #       - name: All
+  #         tag: '*'
+  #       - name: Machine Learning
+  #         tag: SoK
+  #       - name: Adversarial Example
+  #         tag: SoK
+
+  #   design:
+  #     # Choose how many columns the section has. Valid values: '1' or '2'.
+  #     columns: '1'
+  #     view: showcase
+  #     # For Showcase view, flip alternate rows?
+  #     flip_alt_rows: true
+      
   - block: collection
     id: featured
     content:
@@ -105,6 +129,8 @@ sections:
     design:
       columns: '2'
       view: citation
+
+
   - block: contact
     id: contact
     content:

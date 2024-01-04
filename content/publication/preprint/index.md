@@ -1,17 +1,15 @@
 ---
-title: "SoK: What Have We Learned About Black-box Attacks Against Classifiers?"
+title: "Adversarial Illusions in Multi-Modal Embeddings"
 authors:
-- Suya Fnu
-- Anshuman Suri
+- Eugene Bagdasaryan
+- Rishi Jha
 - Admin
-- Jingtao Hong
-- Yuan Tian
-- David Evans
-date: "2022-12-03T00:00:00Z"
+- Vitaly Shmatikov
+date: "2023-10-06T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-12-01T00:00:00Z"
+publishDate: "2023-10-06T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,9 +30,9 @@ tags:
 featured: false
 
 links:
-url_pdf: uploads/Oakland_SoK_on_Black_box_Attacks.pdf
-url_code: 'https://github.com/Tingwei-Zhang'
 
+url_pdf: 'https://arxiv.org/pdf/2308.11804.pdf'
+url_code: 'https://github.com/ebagdasa/adversarial_illusions'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -48,8 +46,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -62,4 +59,5 @@ slides: ""
 
 ### Abstract
 
- Dozens of papers have been written to study the vulnerability of machine learning classifiers to adversarial examples in black-box settings in which the adversary only has API access to the target classifier. These papers propose attacks for settings spanning a wide range of assumptions, making it difficult to compare the attacks and understand their effectiveness. Further, attacks are often evaluated in simplified scenarios or against weak baselines, making it difficult to discern whether proposed attacks are useful improvements in important settings. Motivated by the two observations above, we systematize the knowledge of the black-box attacks against classifiers by 1) providing a new taxonomy of black-box attacks focused on considered threat models and 2) conducting a comprehensive evaluation of representative attacks in a variety of settings. Our taxonomy reveals that although many works have been published in this space, research concentrates on a few settings while leaving others largely under-explored. Our comprehensive evaluations show that attacks that perform well in simplified settings (e.g., finding untargeted adversarial examples) often fail in other settings (e.g., targeted adversarial examples). We also evaluate a few well-performing strategies from image domains in the malware space but find that these methods often lead to worse performance, indicating that the knowledge from image classification may not easily transfer to security-relevant domains. Our systematization reveals new directions worth exploring and emphasizes the importance of evaluating attacks carefully under diverse settings. 
+Multi-modal embeddings encode images, sounds, texts, videos, etc. into a single embedding space, aligning representations across modalities (e.g., associate an image of a dog with a barking sound). We show that multi-modal embeddings can be vulnerable to an attack we call "adversarial illusions." Given an image or a sound, an adversary can perturb it so as to make its embedding close to an arbitrary, adversary-chosen input in another modality. This enables the adversary to align any image and any sound with any text.
+Adversarial illusions exploit proximity in the embedding space and are thus agnostic to downstream tasks. Using ImageBind embeddings, we demonstrate how adversarially aligned inputs, generated without knowledge of specific downstream tasks, mislead image generation, text generation, and zero-shot classification.

@@ -8,10 +8,10 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: tz6rz@virginia.edu
+    link: tz362@cornell.edu
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scintillating-paprenjak-48e467.netlify.app/
+    link: https://scholar.google.com/citations?hl=en&authuser=2&user=YVJJz9cAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/Tingwei-Zhang
@@ -28,10 +28,10 @@ education:
   courses: []
 superuser: true
 status:
-  icon: 🤖
+  icon: ❄️
 last_name: Zhang
 highlight_name: true
 first_name: Tingwei
-email: "tz6rz@virginia.edu"
+email: "tz362@cornell.edu"
 ---
-  Hello! I am a Computer Science PhD student at <a  href="https://www.cornell.edu/"  target="_blank">Cornell University</a> advised by Prof. <a  href="https://www.cs.cornell.edu/~shmat/"  target="_blank">Vitaly Shmatikov</a>. I had my undergraduate at <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> (UVA) working with Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. My current research interests are security and privacy of machine learning.
+  Hello! I am a PhD student in Computer Science at <a  href="https://www.cornell.edu/"  target="_blank">Cornell University</a>, where I am advised by Prof. <a  href="https://www.cs.cornell.edu/~shmat/"  target="_blank">Vitaly Shmatikov</a>. Previously, I completed my undergraduate studies at <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a>, working under the guidance of Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. My current research focuses on the security and privacy aspects of machine learning.
