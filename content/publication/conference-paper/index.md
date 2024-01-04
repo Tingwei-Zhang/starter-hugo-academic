@@ -7,11 +7,11 @@ authors:
 - Jingtao Hong
 - Yuan Tian
 - David Evans
-date: "2022-12-03T00:00:00Z"
+date: "2023-10-26T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-12-01T00:00:00Z"
+publishDate: "2023-10-26T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,7 +20,7 @@ publishDate: "2022-12-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "In IEEE Conference on Secure and Trustworthy Machine Learning 2024"
 publication_short: ""
 
 abstract: ""
