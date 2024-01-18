@@ -25,10 +25,10 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Assistant
-          company: Security Research Group at the University of Virginia
-          company_url: 'https://uvasrg.github.io/'
+          company: Advised by Vitaly Shmatikov 
+          company_url: 'https://tech.cornell.edu/people/vitaly-shmatikov/'
           company_logo: Cornell
-          location: Charlottesville, Virginia
+          location: Ithaca, New York
           date_start: '2023-08-21'
           date_end: ''
           # description: |2-
