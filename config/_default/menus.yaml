@@ -13,6 +13,9 @@ main:
   - name: Publications
     url: '#publications'
     weight: 20
+  - name: News
+    url: 'mynews'
+    weight: 40    
 #  - name: Blog
 #    url: 'blog'
 #    weight: 40
