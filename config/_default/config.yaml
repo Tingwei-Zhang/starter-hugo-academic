@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Tingwei # Website name
+title: Tingwei Zhang # Website name
 baseURL: 'https://ztingwei.com/' # Website URL
 
 ############################
@@ -48,7 +48,7 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 90
   anchor: smart
 timeout: 600000
 taxonomies:
@@ -69,14 +69,5 @@ related:
       weight: 70
 security:
   _merge: deep
-  permissions:
-    policy: >-
-      accelerometer=(), camera=(), geolocation=(), gyroscope=(),
-      magnetometer=(), microphone=(), payment=(), usb=()  
-  csp:
-    policy: ''
-    report_only: false
 sitemap:
-  _merge: deep
-minify:
   _merge: deep

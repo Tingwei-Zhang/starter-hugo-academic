@@ -6,11 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: 1950s
-  theme_night: minimal
-  font: Rose
+  theme_day: my_theme #my_theme, new_theme, ocean, 1950s, apogee, coffee, cyberpunk, dark, earth, forest, rose, strawberry, minimal 
+  theme_night: my_theme
+  font: custom_font
   font_size: L
-
 
 # SEO
 
@@ -18,12 +17,11 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'University of Virginia'
-    description: 'I am a Computer Science undergraduate at University of Virginia (UVA) working with Prof. Yuan Tian and Prof. David Evans.'
-    twitter: ''
+    org_name: ''
+    description: 'A CS Ph.D. student'
+    twitter: 'wowchemy'
   analytics:
-    google_analytics: 'G-XQ1VE1TWJE'
-    google_tag_manager: 'G-XQ1VE1TWJE'
+    google_analytics: ''
     baidu_tongji: ''
   verification:
     google: ''
@@ -36,8 +34,7 @@ header:
     enable: true
     align: l
     show_logo: true
-    show_translations: flase
-    show_language: flase
+    show_language: false
     show_day_night: true
     show_search: true
     highlight_active_link: true
@@ -64,16 +61,18 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
-  math:
     enable: true
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
   privacy_pack:
     enable: false
   repository:
     url: 'https://github.com/<username>/<repository>'
     content_dir: content
-    branch: main
+    branch: master
   avatar:
     gravatar: false
     shape: circle
@@ -84,11 +83,6 @@ features:
       show_count: true
     commento:
       url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   search:
     provider: wowchemy
     algolia:
