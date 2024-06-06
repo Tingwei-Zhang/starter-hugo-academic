@@ -1,21 +1,19 @@
 ---
-title: 'SoK: Pitfalls in Evaluating Black-Box Attacks'
+title: 'Adversarial Illusions in Multi-Modal Embeddings'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Suya Fnu
-  - Anshuman Suri
   - Admin
-  - Jingtao Hong
-  - Yuan Tian
-  - David Evans 
+  - Rishi Jha
+  - Eugene Bagdasaryan
+  - Vitaly Shmatikov
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contributions'
-  - 'Equal contributions'
+  - 'Comparable contributions'
+  - 'Comparable contributions'
 
 
 date: "2024-01-26T00:00:00Z"
@@ -31,8 +29,8 @@ publishDate: "2023-10-26T00:00:00Z"
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: "In IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2024"
-publication_short: "*SaTML'2024*"
+publication: "In USENIX Security Symposium (USENIX Security), 2024"
+publication_short: "*USENIX Security'2024*"
 
 abstract: ""
 # Summary. An optional shortened abstract.
@@ -50,12 +48,12 @@ featured: false
 
 
 links:
-- name: Post
-  url: https://uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/
-url_pdf: 'https://arxiv.org/abs/2310.17534'
-url_code: 'https://github.com/iamgroot42/blackboxsok'
+#- name: Post
+#  url: https://uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/
+url_pdf: 'https://arxiv.org/abs/2308.11804'
+url_code: 'https://github.com/ebagdasa/adversarial_illusions'
 url_dataset: ''
-url_poster: 'files/sok_NDSS.pdf'
+#url_poster: 'files/sok_NDSS.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
