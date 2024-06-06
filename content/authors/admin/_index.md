@@ -73,5 +73,5 @@ user_groups:
 </br ></br > Welcome! I am a Ph.D. student in Computer Science at <a  href="https://www.cornell.edu/"  target="_blank">Cornell University</a>, where I am advised by Prof. <a  href="https://www.cs.cornell.edu/~shmat/"  target="_blank">Vitaly Shmatikov</a>. My current research focuses on the security and privacy aspects of machine learning. Previously, I graduated from <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> with a B.A. in Computer Science, where I was fortunate to work with Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>.  {{<icon name="download" pack="fas">}}Download my{{<staticref "files/CV.pdf" "newtab">}}CV{{</staticref>}}. 
 
 ### Current News:
--📌 Our paper “[Adversarial illusions in multi-modal embeddings](https://arxiv.org/abs/2308.11804)” is accepted to appear in [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24/winter-accepted-papers). 
+-📌 Our paper “[Adversarial illusions in multi-modal embeddings](https://arxiv.org/abs/2308.11804)”  [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24/winter-accepted-papers), see you in Philadelphia this August!
 
