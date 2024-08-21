@@ -26,22 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = "Top 2% of all the graduates"
 
-[[item]]
-  organization = "Tsinghua University"
-  organization_url = "https://www.tsinghua.edu.cn"
-  title = "The Cai Xiong Scholarship"
-  url = ""
-  date_start = "2019-10-27"
-  date_end = ""
-  description = "Top 1%, awarded for outstanding research experience"
 
-[[item]]
-  organization = "China Computer Federation"
-  organization_url = "https://www.ccf.org.cn"
-  title = "Elite Collegiate Award"
-  url = ""
-  date_start = "2019-10-17"
-  date_end = ""
-  description = "73 winners nationwide, only 4 in Tsinghua University"
+
 
 +++

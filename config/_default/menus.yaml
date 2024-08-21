@@ -11,11 +11,14 @@ main:
 #    url: '#experience'
 #    weight: 20
   - name: Publications
-    url: '#publications'
+    url: '#publications' # '/publication/'
     weight: 20
   - name: News
     url: 'mynews'
-    weight: 40    
+    weight: 40  
+  - name: CV
+    url: 'files/CV.pdf'
+    weight: 60    
 #  - name: Blog
 #    url: 'blog'
 #    weight: 40

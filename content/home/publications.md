@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Publications"
-subtitle = ""
+# subtitle = '{{< icon name="google-scholar" pack="ai" >}}[Google Scholar](https://scholar.google.com/citations?user=jxApK7gAAAAJ&hl=en)'
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -29,6 +29,7 @@ subtitle = ""
     category = ""
     publication_type = ""
     exclude_featured = false
+ 
 
 [design]
   # Toggle between the various page layout types.
@@ -37,6 +38,7 @@ subtitle = ""
   #   3 = Card
   #   4 = Citation (publication only)
   view = 4
+  
 
 [design.background]
   # Apply a background color, gradient, or image.
