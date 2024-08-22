@@ -9,7 +9,7 @@ appearance:
   theme_day: my_theme #my_theme, new_theme, ocean, 1950s, apogee, coffee, cyberpunk, dark, earth, forest, rose, strawberry, minimal 
   theme_night: my_theme
   font: custom_font
-  font_size: M
+  font_size: L
 
 # SEO
 

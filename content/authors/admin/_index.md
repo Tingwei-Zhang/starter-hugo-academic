@@ -73,11 +73,11 @@ user_groups:
 - Visitors
 ---
 
-</br ></br > Welcome! &nbsp; I am a Ph.D. student in Computer Science at <a  href="https://www.cornell.edu/"  target="_blank">Cornell University</a>, advised by Prof. <a  href="https://www.cs.cornell.edu/~shmat/"  target="_blank">Vitaly Shmatikov</a>. My research focuses on the security and privacy aspects of machine learning. Previously I graduated from <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> with a B.A. in Computer Science, where I was very fortunate to work with Profs. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. 
+</br ></br > Welcome! &nbsp; I am a Ph.D. student in Computer Science at <a  href="https://www.cornell.edu/"  target="_blank">Cornell University</a>, advised by Prof. <a  href="https://www.cs.cornell.edu/~shmat/"  target="_blank">Vitaly Shmatikov</a>. My research focuses on the security and privacy aspects of machine learning. Previously, I graduated from <a  href="https://www.virginia.edu/"  target="_blank">University of Virginia</a> with a B.A. in Computer Science, where I was very fortunate to work with Prof. <a  href="https://www.ytian.info/"  target="_blank">Yuan Tian</a> and Prof. <a  href="https://www.cs.virginia.edu/~evans/"  target="_blank">David Evans</a>. 
 
 
 
 ### Current News:
--📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)” received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024.
+-📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)”  received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024.
 
 
