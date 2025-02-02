@@ -78,6 +78,7 @@ user_groups:
 
 
 ### Current News:
+-📌 5 Dec 2024: &nbsp; Gave a talk titled "Attacking and Defending Multi-Modal Representations" at the Security Seminar at the University of Virginia.  
 -📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)”  received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024.
 
 

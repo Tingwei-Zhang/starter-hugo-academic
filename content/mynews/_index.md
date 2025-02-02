@@ -6,4 +6,4 @@ active: ture
 
 ---
 
-{{< readfromfile "/content/newslist.dat" 5 >}} 
+{{< readfromfile "/content/newslist.dat" 20 >}} 
