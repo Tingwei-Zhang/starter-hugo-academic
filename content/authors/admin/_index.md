@@ -10,7 +10,7 @@ title: Tingwei Zhang
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate
+# role: Ph.D. Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -78,7 +78,8 @@ user_groups:
 
 
 ### Current News:
--📌 5 Dec 2024: &nbsp; Gave a talk titled "Attacking and Defending Multi-Modal Representations" at the Security Seminar at the University of Virginia.  
--📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)”  received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024.
+-📌 13 Aug 2025: &nbsp; Our paper “[Self-interpreting adversarial images](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-tingwei)” to appear in ***USENIX Security*** 2025, see you in Seattle! 
+
+<!-- -📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)”  received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024. -->
 
 

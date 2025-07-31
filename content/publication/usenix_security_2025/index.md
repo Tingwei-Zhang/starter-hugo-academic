@@ -1,5 +1,5 @@
 ---
-title: 'Soft Prompts Go Hard: Steering Visual Language Models with Hidden Meta-Instructions'
+title: 'Self-interpreting Adversarial Images'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -18,7 +18,7 @@ author_notes:
 
 
 
-date: "2024-01-26T00:00:00Z"
+date: "2025-08-26T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -28,14 +28,17 @@ publishDate: "2023-10-26T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Preprint*, 2024"
-publication_short: ""
+publication: "In USENIX Security Symposium (USENIX Security), 2025"
+publication_short: "*USENIX Security*, 2025"
 
-abstract: "We introduce a new type of indirect injection vulnerabilities in language models that operate on images: hidden meta-instructions that influence how the model interprets the image and steer the model's outputs to express an adversary-chosen style, sentiment, or point of view. 
-We explain how to create meta-instructions by generating images that act as soft prompts. Unlike jailbreaking attacks and adversarial examples, the outputs resulting from these images are plausible and based on the visual content of the image, yet follow the adversary's (meta-)instructions. We describe the risks of these attacks, including misinformation and spin, evaluate their efficacy for multiple visual language models and adversarial meta-objectives, and demonstrate how they can unlock the capabilities of the underlying language models that are unavailable via explicit text instructions. Finally, we discuss defenses against these attacks."
+abstract: "We introduce a new type of indirect, cross-modal injection attacks against visual language models that enable creation of self-interpreting images. These images contain hidden \"meta-instructions\" that control how models answer users' questions about the image and steer their outputs to express an adversary-chosen style, sentiment, or point of view.\n
+
+Self-interpreting images act as soft prompts, conditioning the model to satisfy the adversary's (meta-)objective while still producing answers based on the image's visual content. Meta-instructions are thus a stronger form of prompt injection. Adversarial images look natural and the model's answers are coherent and plausible—yet they also follow the adversary-chosen interpretation, e.g., political spin, or even objectives that are not achievable with explicit text instructions.\n
+
+We evaluate the efficacy of self-interpreting images for a variety of models, interpretations, and user prompts. We describe how these attacks could cause harm by enabling creation of self-interpreting content that carries spam, misinformation, or spin. Finally, we discuss defenses."
 # Summary. An optional shortened abstract.
 summary: ""
 tags: []
@@ -53,7 +56,7 @@ featured: false
 links:
 #- name: Post
 #  url: https://uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/
-url_pdf: 'https://arxiv.org/abs/2407.08970'
+url_pdf: 'https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-tingwei'
 url_code: 'https://github.com/Tingwei-Zhang/Soft-Prompts-Go-Hard'
 url_dataset: ''
 #url_poster: 'files/sok_NDSS.pdf'
