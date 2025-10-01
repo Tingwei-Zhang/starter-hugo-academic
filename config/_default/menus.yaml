@@ -15,10 +15,16 @@ main:
     weight: 20
   - name: News
     url: 'mynews'
-    weight: 40  
+    weight: 60  
   - name: CV
     url: 'files/CV.pdf'
-    weight: 60    
+    weight: 40    
+  # - name: Food
+  #   url: 'food'
+  #   weight: 70
+  # - name: Fish
+  #   url: 'fish'
+  #   weight: 80
 #  - name: Blog
 #    url: 'blog'
 #    weight: 40
