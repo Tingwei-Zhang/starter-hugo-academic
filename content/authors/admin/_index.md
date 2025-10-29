@@ -43,7 +43,7 @@ social:
     link: 'mailto:tz362@cornell.edu'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?hl=en&authuser=2&user=YVJJz9cAAAAJ
+    link: https://scholar.google.com/citations?user=YVJJz9cAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/Tingwei-Zhang
