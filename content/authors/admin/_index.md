@@ -78,7 +78,7 @@ user_groups:
 
 
 ### Current News:
--📌 13 Aug 2025: &nbsp; Our paper “[Self-interpreting adversarial images](https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-tingwei)” to appear in ***USENIX Security*** 2025, see you in Seattle! 
+-📌 I was honored to give a talk titled "Exposing and Exploiting Vulnerabilities in Multi-Modal Representations" at the [AI Security Seminar](https://aisec.cs.umass.edu/seminar/) at the University of Massachusetts.   
 
 <!-- -📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)”  received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024. -->
 
