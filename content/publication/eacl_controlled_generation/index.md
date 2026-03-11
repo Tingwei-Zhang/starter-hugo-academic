@@ -1,5 +1,5 @@
 ---
-title: 'Controlled Generation of Natural Adversarial Documents for Stealthy Retrieval Poisoning'
+title: 'Adversarial Decoding: Generating Readable Documents for Adversarial Objectives'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -16,21 +16,21 @@ author_notes:
 
 
 
-date: "2024-01-26T00:00:00Z"
+date: "2026-01-26T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-10-26T00:00:00Z"
+publishDate: "2026-1-26T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Preprint*, 2024"
-publication_short: ""
+publication: "*The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)* (accepted)"
+publication_short: "Findings of EACL 2026"
 
 abstract: "Recent work showed that retrieval based on embedding similarity (e.g., for retrieval-augmented generation) is vulnerable to poisoning: an adversary can craft malicious documents that are retrieved in response to broad classes of queries. We demonstrate that previous, HotFlip-based techniques produce documents that are very easy to detect using perplexity filtering. Even if generation is constrained to produce low-perplexity text, the resulting documents are recognized as unnatural by LLMs and can be automatically filtered from the retrieval corpus.\n
 

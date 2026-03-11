@@ -1,14 +1,12 @@
 ---
-title: 'Adversarial Hubness in Multi-Modal Retrieval'
+title: 'How to Steal Reasoning Without Reasoning Traces'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Admin
-  - Fnu Suya
-  - Rishi Jha
-  - Collin Zhang
+  - John X. Morris
   - Vitaly Shmatikov
 
 # Author notes (optional)
@@ -18,11 +16,11 @@ author_notes:
 
 
 
-date: "2024-01-26T00:00:00Z"
+date: "2026-03-11T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-10-26T00:00:00Z"
+publishDate: "2026-03-11T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -31,10 +29,10 @@ publishDate: "2023-10-26T00:00:00Z"
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Preprint*, 2024"
+publication: "*Preprint*, 2026"
 publication_short: ""
 
-abstract: "Hubness is a phenomenon in high-dimensional vector spaces where a single point from the natural distribution is unusually close to many other points. This is a well-known problem in information retrieval that causes some items to accidentally (and incorrectly) appear relevant to many queries. In this paper, we investigate how attackers can exploit hubness to turn any image or audio input in a multi-modal retrieval system into an adversarial hub. Adversarial hubs can be used to inject universal adversarial content (e.g., spam) that will be retrieved in response to thousands of different queries, as well as for targeted attacks on queries related to specific, attacker-chosen concepts. We present a method for creating adversarial hubs and evaluate the resulting hubs on benchmark multi-modal retrieval datasets and an image-to-image retrieval system based on a tutorial from Pinecone, a popular vector database. For example, in text-caption-to-image retrieval, a single adversarial hub is retrieved as the top-1 most relevant image for more than 21,000 out of 25,000 test queries (by contrast, the most common natural hub is the top-1 response to only 102 queries). We also investigate whether techniques for mitigating natural hubness are an effective defense against adversarial hubs, and show that they are not effective against hubs that target queries related to specific concepts."
+abstract: "Many large language models (LLMs) use reasoning to generate responses but do not reveal their full reasoning traces (a.k.a. chains of thought), instead outputting only final answers and brief reasoning summaries. To demonstrate that hiding reasoning traces does not prevent users from \"stealing\" a model's reasoning capabilities, we introduce trace inversion models that, given only the inputs, answers, and (optionally) reasoning summaries exposed by a target model, generate detailed, synthetic reasoning traces. We show that (1) traces synthesized by trace inversion have high overlap with the ground-truth reasoning traces (when available), and (2) fine-tuning student models on inverted traces substantially improves their reasoning. For example, fine-tuning Qwen-2.5-7B-Instruct on traces inverted from the answers and summaries of GPT-5 mini, a commercial black-box LLM, improves its performance from 56.8% to 77.6% on MATH500 and from 11.7% to 42.3% on JEEBench, compared to fine-tuning on just the answers and summaries."
 # Summary. An optional shortened abstract.
 summary: ""
 tags: []
@@ -50,10 +48,10 @@ featured: false
 
 
 links:
-#- name: Post
-#  url: https://uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/
-url_pdf: 'https://arxiv.org/pdf/2412.14113'
-url_code: 'https://github.com/Tingwei-Zhang/adv_hub'
+  - name: Tweet
+    url: 'https://x.com/tingwei_zhang1/status/2031402380558790857'
+url_pdf: 'https://arxiv.org/pdf/2603.07267'
+url_code: ''
 url_dataset: ''
 #url_poster: 'files/sok_NDSS.pdf'
 url_project: ''
