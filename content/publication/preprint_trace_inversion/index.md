@@ -51,7 +51,7 @@ links:
   - name: Tweet
     url: 'https://x.com/tingwei_zhang1/status/2031402380558790857'
 url_pdf: 'https://arxiv.org/pdf/2603.07267'
-url_code: ''
+url_code: 'https://github.com/Tingwei-Zhang/Trace_Inversion_Attack'
 url_dataset: ''
 #url_poster: 'files/sok_NDSS.pdf'
 url_project: ''

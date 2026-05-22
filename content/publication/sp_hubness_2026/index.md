@@ -57,7 +57,7 @@ url_code: 'https://github.com/Tingwei-Zhang/adv_hub'
 url_dataset: ''
 #url_poster: 'files/sok_NDSS.pdf'
 url_project: ''
-url_slides: ''
+url_slides: '/files/01-Tingwei Zhang-Adversarial Hubness in Multimodal Retrieval.pdf'
 url_source: ''
 url_video: ''
 
