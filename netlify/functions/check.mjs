@@ -20,7 +20,7 @@ export default async (request, context) => {
     });
   }
 
-  const store = getStore("canary-events");
+  const store = getStore({ name: "canary-events", consistency: "strong" });
   let events = [];
   try {
     const data = await store.get(token, { type: "json" });

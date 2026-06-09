@@ -20,10 +20,6 @@
   to = "/.netlify/functions/canary?token=:token"
   status = 200
 
-[[redirects]]
-  from = "/check/:token"
-  to = "/.netlify/functions/check?token=:token"
-  status = 200
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
