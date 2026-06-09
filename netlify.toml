@@ -15,6 +15,16 @@
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
+[[redirects]]
+  from = "/c/:token"
+  to = "/.netlify/functions/canary?token=:token"
+  status = 200
+
+[[redirects]]
+  from = "/check/:token"
+  to = "/.netlify/functions/check?token=:token"
+  status = 200
+
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
