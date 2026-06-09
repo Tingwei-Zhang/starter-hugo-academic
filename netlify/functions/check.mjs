@@ -28,6 +28,12 @@ export default async (request, context) => {
     });
   }
 
+  const allUrl = `${supabaseUrl}/rest/v1/canary_events?order=ts.desc&limit=5`;
+  const allResp = await fetch(allUrl, {
+    headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
+  });
+  const allData = await allResp.text();
+
   const queryUrl = `${supabaseUrl}/rest/v1/canary_events?token=eq.${encodeURIComponent(token)}&order=ts.desc`;
   const resp = await fetch(queryUrl, {
     headers: {
@@ -48,7 +54,7 @@ export default async (request, context) => {
       detected: Array.isArray(events) && events.length > 0,
       count: Array.isArray(events) ? events.length : 0,
       events,
-      debug: { status: resp.status, rawLength: rawText.length, queryUrl },
+      debug: { status: resp.status, rawLength: rawText.length, queryUrl, allData },
     }),
     { status: 200, headers: { "content-type": "application/json", "cache-control": "no-store" } }
   );
