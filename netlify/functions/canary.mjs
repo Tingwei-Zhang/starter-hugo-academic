@@ -1,6 +1,8 @@
 export default async (request, context) => {
   const url = new URL(request.url);
-  const token = url.searchParams.get("token") || "missing";
+  // Token comes from query param (rewrite) or path /c/:token
+  const pathMatch = url.pathname.match(/\/c\/([^/]+)/);
+  const token = url.searchParams.get("token") || (pathMatch && pathMatch[1]) || "missing";
 
   const event = {
     token,
@@ -38,7 +40,7 @@ export default async (request, context) => {
     debug = `env_missing:url=${!!supabaseUrl},key=${!!supabaseKey}`;
   }
 
-  const body = `<!-- ${debug} -->\nSupplementary material temporarily unavailable.`;
+  const body = `<!-- ${debug} | url:${url.href} | token:${token} -->\nSupplementary material temporarily unavailable.`;
 
   return new Response(body, {
     status: 200,
