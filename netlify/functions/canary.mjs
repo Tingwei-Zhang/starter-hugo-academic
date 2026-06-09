@@ -30,9 +30,7 @@ export default async (request, context) => {
         },
         body: JSON.stringify(event),
       });
-      if (!resp.ok) {
-        debug = `supabase_error:${resp.status}:${await resp.text()}`;
-      }
+      debug = `status:${resp.status}:${await resp.text()}`;
     } catch (e) {
       debug = `fetch_error:${e.message}`;
     }
@@ -40,9 +38,7 @@ export default async (request, context) => {
     debug = `env_missing:url=${!!supabaseUrl},key=${!!supabaseKey}`;
   }
 
-  const body = debug
-    ? `Supplementary material temporarily unavailable.\n\n<!-- ${debug} -->`
-    : "Supplementary material temporarily unavailable.";
+  const body = `<!-- ${debug} -->\nSupplementary material temporarily unavailable.`;
 
   return new Response(body, {
     status: 200,
