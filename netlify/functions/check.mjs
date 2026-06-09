@@ -28,19 +28,28 @@ export default async (request, context) => {
     });
   }
 
-  const resp = await fetch(
-    `${supabaseUrl}/rest/v1/canary_events?token=eq.${encodeURIComponent(token)}&order=ts.desc`,
-    {
-      headers: {
-        apikey: supabaseKey,
-        Authorization: `Bearer ${supabaseKey}`,
-      },
-    }
-  );
-  const events = await resp.json();
+  const queryUrl = `${supabaseUrl}/rest/v1/canary_events?token=eq.${encodeURIComponent(token)}&order=ts.desc`;
+  const resp = await fetch(queryUrl, {
+    headers: {
+      apikey: supabaseKey,
+      Authorization: `Bearer ${supabaseKey}`,
+    },
+  });
+
+  const rawText = await resp.text();
+  let events = [];
+  try {
+    events = JSON.parse(rawText);
+  } catch (_) {}
 
   return new Response(
-    JSON.stringify({ token, detected: events.length > 0, count: events.length, events }),
+    JSON.stringify({
+      token,
+      detected: Array.isArray(events) && events.length > 0,
+      count: Array.isArray(events) ? events.length : 0,
+      events,
+      debug: { status: resp.status, rawLength: rawText.length, queryUrl },
+    }),
     { status: 200, headers: { "content-type": "application/json", "cache-control": "no-store" } }
   );
 };
