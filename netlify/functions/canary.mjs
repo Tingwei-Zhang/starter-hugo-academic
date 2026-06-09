@@ -16,9 +16,11 @@ export default async (request, context) => {
   const supabaseUrl = process.env.SUPABASE_URL;
   const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
+  let debug = "";
+
   if (supabaseUrl && supabaseKey) {
     try {
-      await fetch(`${supabaseUrl}/rest/v1/canary_events`, {
+      const resp = await fetch(`${supabaseUrl}/rest/v1/canary_events`, {
         method: "POST",
         headers: {
           apikey: supabaseKey,
@@ -28,14 +30,21 @@ export default async (request, context) => {
         },
         body: JSON.stringify(event),
       });
+      if (!resp.ok) {
+        debug = `supabase_error:${resp.status}:${await resp.text()}`;
+      }
     } catch (e) {
-      console.error("Write failed:", e);
+      debug = `fetch_error:${e.message}`;
     }
   } else {
-    console.log("CANARY_HIT:", JSON.stringify(event));
+    debug = `env_missing:url=${!!supabaseUrl},key=${!!supabaseKey}`;
   }
 
-  return new Response("Supplementary material temporarily unavailable.", {
+  const body = debug
+    ? `Supplementary material temporarily unavailable.\n\n<!-- ${debug} -->`
+    : "Supplementary material temporarily unavailable.";
+
+  return new Response(body, {
     status: 200,
     headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "no-store" },
   });
