@@ -52,6 +52,16 @@ links:
     url: 'https://x.com/tingwei_zhang1/status/2060831102852530531'
   - name: 404 Media
     url: 'https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/'
+  - name: Nature
+    url: 'https://www.nature.com/articles/d41586-026-02071-w?utm_source=chatgpt.com'
+  - name: Le Monde
+    url: 'https://www.lemonde.fr/pixels/article/2026/07/11/comment-reddit-est-devenu-un-champ-de-bataille-de-l-ia_6722733_4408996.html?utm_source=chatgpt.com'
+  - name: NRC
+    url: 'https://www.nrc.nl/nieuws/2026/07/22/reddit-is-hofleverancier-voor-chatgpt-dat-hebben-adverteerders-ook-door-a4932847'
+  - name: El País
+    url: 'https://elpais.com/tecnologia/2026-06-27/con-13-palabras-manipulas-los-resultados-las-mejores-pistas-para-mejorar-la-busqueda-en-internet-con-ia.html?utm_source=chatgpt.com'
+  - name: Corriere della Sera
+    url: 'https://www.corriere.it/tecnologia/26_giugno_20/intelligenza-artificiale-ricerche-geo-poisoning-13-parole-ricerca-cornell-university-178c103d-b6e7-452a-8e90-1a967496axlk.shtml'
 url_pdf: 'https://arxiv.org/pdf/2605.24245'
 url_code: 'https://github.com/Tingwei-Zhang/geo_storm'
 url_dataset: ''
