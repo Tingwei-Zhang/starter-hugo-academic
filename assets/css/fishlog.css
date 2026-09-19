@@ -1,0 +1,186 @@
+.fishlog {
+  margin-top: 1.5rem;
+}
+
+/* Location filter chips */
+.fishlog-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+.fishlog-chip {
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  opacity: 0.65;
+  cursor: pointer;
+  transition: opacity 120ms ease, background-color 120ms ease;
+}
+.fishlog-chip:hover {
+  opacity: 1;
+}
+.fishlog-chip.is-active {
+  opacity: 1;
+  background: rgba(127, 127, 127, 0.18);
+  font-weight: 600;
+}
+.fishlog-count {
+  opacity: 0.6;
+  margin-left: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Grouped sections */
+.fishlog-group[hidden] {
+  display: none;
+}
+.fishlog-group-title {
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+}
+.fishlog-group + .fishlog-group {
+  margin-top: 2.5rem;
+}
+
+/* Card grid */
+.fishlog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 18px;
+}
+.fish-card {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(127, 127, 127, 0.08);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+.fish-card:hover,
+.fish-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  outline: none;
+}
+.fish-card img,
+.fish-nophoto {
+  display: block;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.fish-nophoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  opacity: 0.45;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(127, 127, 127, 0.07),
+    rgba(127, 127, 127, 0.07) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+.fish-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px 12px;
+  text-align: left;
+}
+.fish-species {
+  font-weight: 600;
+  line-height: 1.25;
+}
+.fish-sub {
+  font-size: 0.82rem;
+  opacity: 0.65;
+}
+
+/* Lightbox */
+.fishlog-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.fishlog-lightbox[hidden] {
+  display: none;
+}
+.fishlog-lightbox-inner {
+  margin: 0;
+  max-width: min(1100px, 92vw);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.fishlog-lightbox-inner img {
+  max-height: 72vh;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  align-self: center;
+}
+.fishlog-lightbox-inner img:not([src]),
+.fishlog-lightbox-inner img[src=''] {
+  display: none;
+}
+.fishlog-lightbox-inner figcaption {
+  padding-top: 14px;
+  text-align: center;
+}
+.fishlog-lightbox-inner h3 {
+  margin: 0 0 4px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.fishlog-lb-meta,
+.fishlog-lb-size,
+.fishlog-lb-notes {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.fishlog-lb-meta span + span::before {
+  content: ' · ';
+}
+.fishlog-lb-notes {
+  margin-top: 6px;
+  font-style: italic;
+}
+.fishlog-lb-size:empty,
+.fishlog-lb-notes:empty {
+  display: none;
+}
+.fishlog-close {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  cursor: pointer;
+}
+.fishlog-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

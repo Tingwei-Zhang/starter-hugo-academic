@@ -1,0 +1,66 @@
+# Admin panel config, consumed by the wowchemy-plugin-netlify-cms module to
+# generate /admin/config.yml. Keys not set here (backend, media_folder, ...)
+# are inherited from the module's own template.
+#
+# `collections` replaces the module's default list rather than extending it,
+# so the admin panel shows only what is declared below.
+collections:
+  - name: fish
+    label: Fish Log
+    label_singular: Catch
+    description: One entry per fish caught. Photos are stored alongside the entry.
+    folder: content/fish/catches
+    path: '{{slug}}/index'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.species}}'
+    identifier_field: species
+    media_folder: ''
+    public_folder: ''
+    create: true
+    summary: '{{fields.species}} — {{fields.location}} ({{year}}-{{month}}-{{day}})'
+    sortable_fields:
+      - date
+      - species
+      - location
+    view_groups:
+      - label: Location
+        field: location
+    fields:
+      - name: species
+        label: Species
+        widget: string
+        hint: e.g. Largemouth Bass
+      - name: date
+        label: Date caught
+        widget: datetime
+        date_format: 'YYYY-MM-DD'
+        time_format: false
+        picker_utc: false
+      - name: location
+        label: Location
+        widget: string
+        hint: Catches are grouped by this, so keep the spelling consistent.
+      - name: photo
+        label: Photo
+        widget: image
+        required: false
+        allow_multiple: false
+        hint: Full-size is fine — thumbnails are generated automatically.
+      # Named `catch_*` because Hugo reserves `weight` for page ordering.
+      - name: catch_length
+        label: Length
+        widget: string
+        required: false
+        hint: e.g. 18 in
+      - name: catch_weight
+        label: Weight
+        widget: string
+        required: false
+        hint: e.g. 3 lb 4 oz
+      - name: notes
+        label: Notes
+        widget: text
+        required: false
+      - name: body
+        label: ''
+        widget: hidden
+        default: ''

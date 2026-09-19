@@ -1,0 +1,31 @@
+{{- /*
+  Overrides the admin shell from the wowchemy-plugin-netlify-cms module.
+
+  The upstream template loads `netlify-cms@2` (a floating tag) from jsDelivr with
+  no integrity check, so a new 2.x release would execute here automatically. This
+  version pins an exact release and verifies it with a Subresource Integrity hash,
+  served from unpkg because jsDelivr re-minifies files on the fly and would break
+  the hash whenever it bumps Terser.
+
+  To upgrade, bump the version and recompute the hash:
+    curl -sL https://unpkg.com/netlify-cms@<version>/dist/netlify-cms.js \
+      | openssl dgst -sha384 -binary | openssl base64 -A
+
+  The Netlify Identity widget is deliberately unpinned: it is the authentication
+  client and needs to track Netlify's own service.
+*/ -}}
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta content="noindex, nofollow" name="robots">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Wowchemy CMS</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+<script src="https://unpkg.com/netlify-cms@2.10.192/dist/netlify-cms.js"
+        integrity="sha384-jq9+Bunifqg6Me4p5pL6kRvWx08x/rwycWKJhtGUEPINnKdO0UeUmvdYWigUKEXf"
+        crossorigin="anonymous"></script>
+</body>
+</html>

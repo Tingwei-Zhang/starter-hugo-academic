@@ -1,0 +1,100 @@
+{{- define "main" -}}
+{{- $catches := .RegularPagesRecursive -}}
+{{- $groups := $catches.GroupByParam "location" -}}
+
+<article class="article">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+
+      {{- if $catches -}}
+        {{ with resources.Get "css/fishlog.css" }}<style>{{ .Content | safeCSS }}</style>{{ end }}
+
+        <div class="fishlog">
+
+          <div class="fishlog-toolbar">
+            <button class="fishlog-chip is-active" type="button" data-filter="*">
+              All <span class="fishlog-count">{{ len $catches }}</span>
+            </button>
+            {{- range $groups }}
+              <button class="fishlog-chip" type="button" data-filter="{{ .Key | urlize }}">
+                {{ .Key }} <span class="fishlog-count">{{ len .Pages }}</span>
+              </button>
+            {{- end }}
+          </div>
+
+          {{- range $groups }}
+            <section class="fishlog-group" data-location="{{ .Key | urlize }}">
+              <h2 class="fishlog-group-title">{{ .Key }}</h2>
+              <div class="fishlog-grid">
+                {{- range .Pages.ByDate.Reverse }}
+                  {{- $catch := . -}}
+                  {{- $photo := false -}}
+                  {{- with .Params.photo -}}
+                    {{- $photo = $catch.Resources.GetMatch . -}}
+                  {{- end -}}
+
+                  {{- $size := slice -}}
+                  {{- with .Params.catch_length }}{{ $size = $size | append . }}{{ end -}}
+                  {{- with .Params.catch_weight }}{{ $size = $size | append . }}{{ end -}}
+                  {{- $size = delimit $size " · " -}}
+                  {{- $when := .Date.Format (site.Params.locale.date_format | default "Jan 2, 2006") -}}
+
+                  <figure class="fish-card"
+                          tabindex="0"
+                          role="button"
+                          aria-label="{{ .Params.species }}"
+                          data-species="{{ .Params.species }}"
+                          data-location="{{ .Params.location }}"
+                          data-date="{{ $when }}"
+                          data-size="{{ $size }}"
+                          data-notes="{{ .Params.notes }}"
+                          {{ with $photo }}data-full="{{ (.Resize "1600x webp q85").RelPermalink }}"{{ end }}>
+                    {{- with $photo }}
+                      {{- $thumb := .Fill "600x450 webp q80 Center" }}
+                      <img src="{{ $thumb.RelPermalink }}"
+                           width="{{ $thumb.Width }}" height="{{ $thumb.Height }}"
+                           alt="{{ $catch.Params.species }}" loading="lazy">
+                    {{- else }}
+                      <div class="fish-nophoto" aria-hidden="true">No photo yet</div>
+                    {{- end }}
+                    <figcaption class="fish-body">
+                      <span class="fish-species">{{ .Params.species }}</span>
+                      <span class="fish-sub">{{ $when }}{{ with $size }} · {{ . }}{{ end }}</span>
+                    </figcaption>
+                  </figure>
+                {{- end }}
+              </div>
+            </section>
+          {{- end }}
+        </div>
+
+        <div class="fishlog-lightbox" role="dialog" aria-modal="true" aria-label="Catch details" hidden>
+          <button class="fishlog-close" type="button" aria-label="Close">&#10005;</button>
+          <figure class="fishlog-lightbox-inner">
+            <img alt="">
+            <figcaption>
+              <h3 data-lb-species></h3>
+              <p class="fishlog-lb-meta"><span data-lb-location></span><span data-lb-date></span></p>
+              <p class="fishlog-lb-size" data-lb-size></p>
+              <p class="fishlog-lb-notes" data-lb-notes></p>
+            </figcaption>
+          </figure>
+        </div>
+
+        {{ with resources.Get "js/fishlog.js" }}<script>{{ .Content | safeJS }}</script>{{ end }}
+      {{- else -}}
+        <p>No catches logged yet. Add one in the <a href="/admin/">admin panel</a>.</p>
+      {{- end -}}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+{{- end -}}
