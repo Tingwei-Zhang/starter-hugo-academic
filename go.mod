@@ -1,4 +1,4 @@
-module github.com/duzx16/academic_page
+module github.com/Tingwei-Zhang/starter-hugo-academic
 
 go 1.15
 

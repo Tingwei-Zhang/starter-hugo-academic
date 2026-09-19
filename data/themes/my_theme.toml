@@ -12,7 +12,7 @@ name = "my_theme"
   menu_title = "#FFCC00"
 
   # Home sections
-  home_section_odd = "fff"
+  home_section_odd = "#fff"
   home_section_even = "#F8F5F2"
   
   link = "#3366CC" 

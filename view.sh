@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
-hugo --i18n-warnings server
+# Serve the site locally at http://localhost:1313 with live reload.
+hugo server --printI18nWarnings --buildFuture

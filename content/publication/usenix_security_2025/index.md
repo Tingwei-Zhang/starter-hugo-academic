@@ -7,7 +7,7 @@ title: 'Self-interpreting Adversarial Images'
 authors:
   - Admin
   - Collin Zhang
-  - John X Morris
+  - John X. Morris
   - Eugene Bagdasaryan
   - Vitaly Shmatikov
 
@@ -52,15 +52,10 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-
-links:
-#- name: Post
-#  url: https://uvasrg.github.io/sok-pitfalls-in-evaluating-black-box-attacks/
 url_pdf: 'https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-tingwei'
 url_code: 'https://github.com/Tingwei-Zhang/Soft-Prompts-Go-Hard'
-url_slides: 'https://www.usenix.org/system/files/sec25_slides_zhang-tingwei.pdf' # TODO: Add slides link
-url_video: 'https://www.youtube.com/watch?v=ws3hQk80xwI' # TODO: Add video link 
-
+url_slides: 'https://www.usenix.org/system/files/sec25_slides_zhang-tingwei.pdf'
+url_video: 'https://www.youtube.com/watch?v=ws3hQk80xwI'
 
 links:
   - name: Appendix
