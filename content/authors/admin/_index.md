@@ -82,8 +82,8 @@ user_groups:
 
 
 ### Current News:
--📌 I will be presenting our work on "Adversarial Hubness in Multi-Modal Retrieval" at the ***47th IEEE Symposium on Security and Privacy*** (***IEEE S&P***) 2026 in San Francisco.  
--📌 Excited to share that I'll be coming to the Bay Area and joining Google as a Student Researcher in Summer 2026 — see you in the Bay Area!
+-📌 Gave a talk titled "How to Steal Reasoning Without Reasoning Traces" at the [UVA Artificial Intelligence and Machine Learning (AIML) seminar](https://uvaml.github.io/texts/2026-11-04/).  
+-📌 Gave a talk titled "Adversarial Examples in Multi-modal Systems" in [CS 684: Trustworthy and Responsible AI](https://cs684-umass.github.io/) at the University of Massachusetts.  
 
 <!-- -📌 14 Aug 2024: &nbsp; Our paper “[Adversarial illusions in multi-modal embeddings](https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei)”  received the <a style="color: mediumblue;">**Distinguished Paper Award**</a> at ***USENIX Security*** 2024. -->
 
